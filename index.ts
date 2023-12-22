@@ -1,1 +1,1 @@
-console.log("Hello via Bun! apa");
+console.log("Hello via Bun!");
