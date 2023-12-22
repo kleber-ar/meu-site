@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "module": "index.ts",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kleber-ar/meu-site"
+  },
   "devDependencies": {
     "@commitlint/cli": "^18.4.3",
     "@commitlint/config-conventional": "^18.4.3",
