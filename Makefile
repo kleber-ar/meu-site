@@ -1,4 +1,4 @@
 include .env
 
 release:
-		GH_TOKEN=${GH_TOKEN} bun release
+		GITHUB_TOKEN=${GITHUB_TOKEN} bun release
