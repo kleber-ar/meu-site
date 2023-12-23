@@ -1,10 +1,18 @@
 {
   "name": "meu-site",
   "version": "1.0.0",
+  "module": "index.ts",
   "type": "module",
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git@github.com:kleber-ar/meu-site"
+  },
+  "release": {
+    "branches": [
+      "main",
+      "next"
+    ]
   },
   "scripts": {
     "release": "semantic-release --no-ci"
@@ -15,6 +23,7 @@
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "bun-types": "latest",
+    "cz-conventional-changelog": "^3.3.0",
     "husky": "^8.0.3",
     "semantic-release": "^22.0.12"
   },
@@ -29,6 +38,11 @@
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
     }
   }
 }
