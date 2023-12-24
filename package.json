@@ -1,7 +1,7 @@
 {
   "name": "meu-site",
   "version": "1.0.0",
-  "module": "index.ts",
+  "main": "index.html",
   "type": "module",
   "private": true,
   "repository": {
