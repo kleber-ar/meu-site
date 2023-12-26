@@ -19,7 +19,7 @@ a {
   align-items: center;
   max-width: 1200px;
   height: 100%;
-  padding: 0 30px;
+  padding: 0 25px;
 }
 
 span {
@@ -32,23 +32,20 @@ span {
 
 .efect{
   position: fixed;
-  left: 50%;
-  transform: translateX(-50%); transform: translateX(-50%);
-  top:100px;
-  background:radial-gradient(#2f43738b, #11182700, #11182700);
-  width: 1800px;
+  left: 350px;
+  top: 50px;
+  background:radial-gradient(#3d4d7380, #3d4d7300, #11182700);
+  width: 800px;
   height: 800px;
   border-radius: 50%;
 }
 
-section > * {
-  z-index: 1;
-}
 /*---------------HEADER------------*/
 
 header {
   margin: auto;
   height: 70px;
+  z-index: 10000;
 }
 
  header > .container {
@@ -57,6 +54,7 @@ header {
   max-width: 1200px;
   height: 100%;
   color:#9CA3AF;
+  z-index: 10000;
 }
 
 a:hover{
@@ -88,7 +86,7 @@ p {
   gap: 10px;
   margin-top: 10px;
   margin-left: 10px;
-  filter:saturate(3);
+  filter: brightness(2);
 }
 
 .icons a:hover img {
