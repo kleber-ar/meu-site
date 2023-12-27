@@ -78,14 +78,14 @@ a:hover{
 }
 
 .about {
-  width: 500px;
+  width: 505px;
 }
 
 h1 , h3{
   margin: 0 20px;
 }
 
-p {
+.about > p {
   margin-bottom: 10px;
   margin: 0 20px;
 }
@@ -117,3 +117,68 @@ p {
 .cv:hover {
   text-decoration: underline;
 }
+
+/*---------------Skills-------------*/
+
+.skills_section {
+  width: 100%;
+  background-color: #0E1420;
+  padding-bottom: 35px;
+}
+
+.skills {
+  display: block;
+  max-width: 1000px;
+  height: 480px;
+  padding: 40px;
+}
+
+.skills > h4 {
+  margin-bottom: 20px;
+}
+
+.skills > h1 {
+  margin: 20px 0px ;
+  color: #ffffff;
+}
+
+.front > h2 {
+  margin-bottom: 20px;
+}
+
+.back > h2 {
+  margin: 20px 0px;
+}
+
+.test > h2 {
+  margin: 20px 0px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.card {
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 5px;
+  color: lightgray;
+  background-color: #9ca3af22;
+  border-radius: 3px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.card:hover{
+  color: #ffffff;
+  box-shadow: rgba(0, 255, 255, 0.477) 0px 0px 20px 0px;
+}
+
+/* .card > img {
+  filter: brightness(2);
+} */
