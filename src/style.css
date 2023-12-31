@@ -46,6 +46,93 @@ section > * {
   z-index: 1;
 }
 
+/*---------------ANIMAÇÃ-HERO------------*/
+
+.txt-animado span {
+  position: relative;
+}
+
+.txt-animado span::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: calc(100% + 10px);
+  right: -5px;
+  border-left: 2px solid aqua;
+  animation: cursor 1s infinite, digitar 1s steps(20) forwards;
+  background:linear-gradient(#151e30,#171d2c);
+}
+
+@keyframes digitar {
+  from{
+    width: 100;
+  }
+
+  to{
+    width: 0;
+  }
+}
+
+@keyframes cursor {
+  0%{
+    border-left: 2px solid #0e1420;
+  }
+}
+
+/*---------------ANIMAÇÃ-CARD------------*/
+.front span{
+  position: relative;
+  overflow: hidden;
+}
+
+.front h2{
+  opacity: 0;
+  animation: fade 1s forwards;
+}
+
+.front span::after{
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  right: 0;
+  background-color: aqua;
+  animation: reveal 1s forwards;
+}
+
+@keyframes reveal {
+  from{
+    width: 100;
+    transform: translateX(-100%);
+  }
+  to{
+    width: 0;
+    transform: translateX(100%);
+  }
+  
+}
+
+@keyframes fade {
+  
+  to{
+    opacity: 1;
+  }
+  
+}
+
+@keyframes fade-card {
+  
+  from{
+    transform: translateY(25px);
+  }
+
+  to{
+    transform: translateY(none);
+    opacity: 1;
+  }
+  
+}
+
 /*---------------HEADER------------*/
 
 header {
@@ -163,6 +250,8 @@ a:hover{
   border-radius: 3px;
   font-weight: 600;
   cursor: pointer;
+  opacity: 0;
+  animation: fade-card 2s ease forwards;
 }
 
 .card:hover{
