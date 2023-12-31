@@ -10,7 +10,7 @@
   },
   "release": {
     "branches":
-     ["main"]
+     ["develop"]
   },
   "scripts": {
     "release": "semantic-release --no-ci"
