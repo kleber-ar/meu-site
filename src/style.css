@@ -28,6 +28,7 @@ span {
 
 .background{
   background:linear-gradient(#0E1420,#111827E5);
+  overflow-y: auto;
 }
 
 .efect{
@@ -78,7 +79,8 @@ a:hover{
 }
 
 .about {
-  width: 450px;
+  max-width: 450px;
+  margin: auto;
 }
 
 .icons {
@@ -119,7 +121,6 @@ a:hover{
 .skills {
   display: block;
   max-width: 1000px;
-  height: 480px;
   padding: 40px;
 }
 
