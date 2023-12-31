@@ -1,15 +1,18 @@
-# meu-site
+## 💚 Meus site
 
-To install dependencies:
+Esse projeto é o meu site para usar como portfolio.
 
-```bash
-bun install
-```
 
-To run:
+## ⚙️ Technologies
 
-```bash
-bun run index.ts
-```
+* HTML
+* CSS
 
-This project was created using `bun init` in bun v1.0.19. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+&nbsp;
+
+## 🔗 Project
+* [Meu-site](https://kleber-ar.vercel.app/)
+
+&nbsp;
+
+<p align="center">Developed with 💙 by Kleber Rodrigues</p>
