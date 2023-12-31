@@ -10,8 +10,8 @@ Esse projeto é o meu site para usar como portfolio.
 
 &nbsp;
 
-## 🔗 Project live
-* [Meu-site]([https://](https://kleber-ar.vercel.app/))
+## 🔗 Project
+* [Meu-site](https://kleber-ar.vercel.app/)
 
 &nbsp;
 
