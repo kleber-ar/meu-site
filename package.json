@@ -9,8 +9,9 @@
     "url": "git@github.com:kleber-ar/meu-site"
   },
   "release": {
-    "branches":
-     ["main"]
+    "branches": [
+      "develop"
+    ]
   },
   "scripts": {
     "release": "semantic-release --no-ci"
